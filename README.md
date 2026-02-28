@@ -13,4 +13,4 @@ To enable GitHub Pages for this repository, follow these steps:
    - After selecting main, leave the location as **/ (root)**, which is the default.
    - Click the **Save** button.
 
-Once configured, your site will be available at: `https://tannyhelens.github.io/wdd130/`
+Once configured, your site will be available at: `https://<your-username>.github.io/wdd130/`
