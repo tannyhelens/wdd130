@@ -30,7 +30,7 @@ main {
 }
 
 main img {
-    width: 150px;
+    width: 100px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -50,8 +50,9 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    padding: 20px;
 }
 
 aside h2 {
