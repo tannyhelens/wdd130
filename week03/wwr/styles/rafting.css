@@ -38,10 +38,9 @@ h2 {
 
 nav,
 p,
-section,
-{
-margin: 16px;
-padding: 8px;
+section {
+    margin: 16px;
+    padding: 8px;
 }
 
 .socialmedia a {
@@ -58,21 +57,30 @@ padding: 8px;
     height: auto;
 }
 
-h1 {
+.hero article {
     position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: rgba(60, 80, 90, 0.6);
-    color: #fff;
-
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 6px;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: rgba(60, 80, 90, 0.6);
+    color: white;
 }
 
 footer .socialmedia img {
@@ -93,16 +101,6 @@ footer .socialmedia img {
 
 section {
     background-color: var(--secondary-color);
-}
-
-article {
-    position: absolute;
-    bottom: 20px;
-    left: 40px;
-    right: 40px;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 6px;
 }
 
 .overlay-box {
