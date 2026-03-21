@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: #a8dadc;
+    background-color: var(--primary-color);
     padding: 10px 20px;
 }
 
@@ -33,7 +33,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: #264653;
+    color: var(--accent1-color);
 }
 
 nav,
@@ -91,7 +91,7 @@ footer .socialmedia img {
 
 .box {
     background-color: #a8dadc;
-    color: #000;
+    color: var(--accent2-color);
     padding: 15px 0;
     border-radius: 5px;
     width: 100%;
