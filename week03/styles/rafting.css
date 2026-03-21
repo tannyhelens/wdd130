@@ -8,7 +8,10 @@
 }
 
 header {
-    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a8dadc;
     color: var(--accent2-color);
     padding: 10px 20px;
 }
