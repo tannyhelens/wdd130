@@ -91,6 +91,12 @@ nav a {
     border-radius: 0;
 }
 
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 15px;
+}
+
 .overlay-box {
     display: flex;
     align-items: center;
@@ -109,6 +115,7 @@ nav a {
 
 section {
     margin-top: 40px;
+    background-color: var(--secondary-color);
 }
 
 .history {
