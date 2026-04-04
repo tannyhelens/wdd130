@@ -47,18 +47,24 @@ header img {
 nav ul {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 10px;
     list-style: none;
 }
 
 nav a {
-    display: block;
+     display: block;
     text-decoration: none;
     color: #333;
-    background-color: #f5f5f5;
+    background-color: #eeeeee;
     border: 1px solid #888;
-    padding: 8px 25px;
+    padding: 8px 20px;
     font-size: 14px;
+    margin: 0;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
 }
 
 .hero {
@@ -115,7 +121,7 @@ nav a {
 
 section {
     margin-top: 40px;
-    background-color: var(--secondary-color);
+    background-color: white;
 }
 
 .history {
@@ -212,4 +218,143 @@ footer p {
 footer .socialmedia img {
     width: 28px;
     height: 28px;
+}
+
+/* CONTACT PAGE */
+
+main {
+    padding: 6px 20px;
+    background-color: white;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.company-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+   }
+
+.map-box {
+    margin-top: 40px;
+    background-color: white;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 420px;
+    border: 0;
+    display: block;
+}
+
+.contact-form {
+    background-color: white;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 14px;
+}
+
+.contact-form label {
+    font-weight: normal;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    align-items: start;
+    column-gap: 15px;
+}
+
+.form-row label,
+.form-row p {
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #777;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+
+.radio-group {
+    display: grid;
+    gap: 8px;
+}
+
+.checkbox-row {
+    margin-left: 105px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-form button {
+    margin-left: 105px;
+    width: calc(100% - 105px);
+    padding: 10px;
+    border: 1px solid #777;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+.employees-section {
+    border: 1px solid #777;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.employees-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.employees {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.employees figure {
+    text-align: center;
+}
+
+.employees img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.employees figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
 }
