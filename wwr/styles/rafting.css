@@ -503,3 +503,8 @@ home header img {
 .home nav a:hover {
     color: var(--accent2-color);
 }
+
+.grid h2 {
+    position: absolute;
+    left: -9999px;
+}
