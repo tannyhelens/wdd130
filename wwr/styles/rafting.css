@@ -389,7 +389,6 @@ main h1 {
     font-size: 2rem;
 }
 
-/* CTA */
 .home .cta {
     text-align: center;
     margin: 30px 20px;
@@ -414,7 +413,6 @@ main h1 {
     background-color: #023e8a;
 }
 
-/* NEWSLETTER */
 .home .newsletter {
     margin: 40px;
     padding: 25px;
@@ -463,10 +461,9 @@ main h1 {
     background-color: #023e8a;
 }
 
-/* GRID */
 .home .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     margin: 20px 40px 40px 40px;
 }
@@ -482,7 +479,7 @@ main h1 {
     display: block;
     margin-bottom: 10px;
 }
-home header img {
+home .header img {
     width: 130px;
 }
 
@@ -507,4 +504,34 @@ home header img {
 .grid h2 {
     position: absolute;
     left: -9999px;
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* centraliza tudo */
+    align-items: center;
+    gap: 40px; /* espaço entre texto e ícones */
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 10px;
+    text-align: left;
+}
+
+footer .socialmedia {
+    display: flex;
+    gap: 2px;
+}
+
+footer .socialmedia img {
+    width: 40px;
+}
+
+.message-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
